@@ -1,6 +1,6 @@
 import axios from 'axios'
 import qs from 'qs'
-import {baseUrl} from './https'
+import {baseUrl} from './start'
 
 let params = {
   exCode:'00000',
