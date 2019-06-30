@@ -3,7 +3,7 @@ let baseUrl = '';
 let imgUrl = '';
 let deskey = "";
 if (process.env.NODE_ENV === 'development'){
-  baseUrl = "";
+  baseUrl = "";//hello wrold
   imgUrl = '';
   deskey = "";
 } else if (process.env.NODE_ENV === 'production') {
