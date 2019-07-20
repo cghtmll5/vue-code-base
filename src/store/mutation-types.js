@@ -1,1 +1,1 @@
-export const HOME_LOGIN = 'HOME_LOGIN'
+export const SAVE_TOKENID = 'SAVE_TOKENID';

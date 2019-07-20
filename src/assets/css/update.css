@@ -1,0 +1,25 @@
+.menu{
+  font-size:15px;
+  width:50%;
+  position: fixed;
+  z-index:999;
+  right:0;
+  bottom:0;
+  background-color:#efefef;
+}
+.menu .nav-item{
+  position: relative;
+  line-height:2.5;
+  overflow: hidden;
+}
+.menu .nav-item .item-children{
+  height:0;
+}
+.menu .nav-item.item-h .item-children{
+  height:auto;
+}
+.menu .icon-right{
+  position: absolute;
+  right:.35rem;
+  padding:0 .35rem;
+}
